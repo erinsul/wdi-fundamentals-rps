@@ -4,7 +4,6 @@
 
 function getInput() {
     return prompt("Please choose either 'rock', 'paper', or 'scissors'.");
-    ///edited because it was otherwise returning that "prompt" was undefined.
 }
 function randomPlay() {
     var randomNumber = Math.random();
